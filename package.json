@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "sequelize": "sequelize migration:create --name=create-users"
+    "dev": "nodemon src/server.js"
   },
   "author": "",
   "license": "ISC",
@@ -15,6 +15,7 @@
     "sequelize": "^5.21.4"
   },
   "devDependencies": {
+    "nodemon": "^2.0.2",
     "sequelize-cli": "^5.5.1"
   }
 }

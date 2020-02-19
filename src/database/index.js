@@ -1,6 +1,6 @@
-import Sequelize from "sequelize";
-import User from "../../app/models/User";
-import databaseConfig from "../config/database";
+const Sequelize = "sequelize";
+const User = "../../app/models/User";
+const databaseConfig = "../config/database";
 
 const models = [User];
 class Database {
@@ -13,4 +13,4 @@ class Database {
   }
 }
 
-export default new Database();
+module.exports = new Database();
